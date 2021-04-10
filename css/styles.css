@@ -1,0 +1,233 @@
+* {
+    box-sizing: border-box;
+    /* font family */
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column-1 {
+    width: 50%;
+    float: left;
+}
+
+#header {
+    text-align: center;
+    background-image: url("../img/banner-2.jpg");
+    background-size: cover;
+    padding: 30vh 100px;
+    color: black;
+}
+
+#header h1 {
+    font-size: 15vh;
+}
+
+.column-1 h1 {
+    font-size: 11vh;
+}
+
+.column-1 h5 {
+    font-size: 7vh;
+}
+
+#section-2 .gallery img {
+    width: 40%;
+    height: 40%;
+}
+
+.column-4 {
+    width: 100%;
+    text-align: center;
+    background-color: rgb(86, 153, 240);
+    font-size: 10vh;
+}
+
+.column-5 {
+    width: 25%;
+    text-align: center;
+    float: left;
+    padding-right: 3vh;
+}
+
+#section-3 {
+    background-color: rgb(73, 240, 176);
+    padding-left: 15vh;
+    padding-bottom: 6vh;
+    padding-top: 3vh;
+}
+
+#section-3 .column-6 {
+    width: 100%;
+    font-size: 5vh;
+}
+
+#section-4 .gallery img {
+    width: 45%;
+    float: left;
+}
+
+#section-4 .column-1 h1 {
+    font-size: 10vh;
+    padding-left: 7vh;
+    padding-right: 10vh;
+}
+
+#section-4 .column-1 h2 {
+    font-size: 6vh;
+    padding-left: 7vh;
+    padding-right: 10vh;
+}
+
+#section-4 img {
+    padding-top: 16vh;
+    padding-left: 10vh;
+}
+
+#section-5 .gallery img {
+    width: 25%;
+    float: left
+}
+
+.column-3 {
+    width: 33.33%;
+    float: left;
+    background-color: #000000;
+    text-align: center;
+    padding: 4%;
+}
+
+.column-3 p {
+    color: white;
+}
+
+.column-5 img {
+    width: 90%;
+    height: 90%;
+    padding-right: 8vh;
+}
+
+#section-6 .column-4 p {
+    font-size: 10vh;
+}
+
+#section-2 {
+    padding-left: 15vh;
+}
+
+.column-5 p {
+    padding-right: 8vh;
+}
+
+#texto6 {
+    margin: 0%;
+    padding: 4%;
+}
+
+@media screen and (max-width: 700px) {
+    #header {
+        padding: 20px 30px;
+        height: 200vh;
+        color: black;
+    }
+    #header h1 {
+        font-size: 100px;
+    }
+    .column-1 {
+        width: 100%;
+        float: left;
+        padding: 20px 30px;
+    }
+    .column-1 h1 {
+        font-size: 50px;
+    }
+    .column-1 .gallery img {
+        width: 100%;
+    }
+    #section-2 {
+        padding-left: 8vh;
+    }
+    #section-2 .gallery img {
+        width: 100%;
+        height: 100%;
+    }
+    #section-3 {
+        background-color: rgb(73, 240, 176);
+        padding-left: 4vh;
+        padding-bottom: 6vh;
+        padding-top: 3vh;
+        padding-right: 4vh;
+    }
+    #section-3 .column-6 {
+        width: 100%;
+        font-size: 3vh;
+        text-align: center;
+    }
+    #section-3 .column-5 {
+        width: 50%;
+        height: 50%;
+        font-size: 3vh;
+        padding-left: 5vh;
+    }
+    .column-5 img {
+        width: 160%;
+        height: 160%;
+        padding-right: 15vh;
+    }
+    .column-5 p {
+        padding-right: 0%;
+        padding-left: 2vh;
+    }
+    #section-4 .gallery img {
+        width: 120%;
+        float: left;
+    }
+    #section-4 .column-1 h1 {
+        font-size: 6vh;
+        padding: 0%;
+        padding-left: 10vh;
+    }
+    #section-4 img {
+        padding-right: 18vh;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+    }
+    #section-4 .column-1 h2 {
+        font-size: 4vh;
+        padding: 0%;
+        padding-left: 10vh;
+        padding-top: 2vh;
+    }
+    #section-5 .gallery img {
+        width: 50%;
+        float: left
+    }
+    #texto6 {
+        margin: 0%;
+        padding: 1%;
+        padding-right: 3vh;
+        padding-left: 3vh;
+        padding-bottom: 3vh;
+    }
+    #section-6 .column-4 p {
+        font-size: 7vh;
+    }
+    .column-3 {
+        width: 100%;
+        float: left;
+    }
+    .column-3 p {
+        font-size: 4vh;
+    }
+}
